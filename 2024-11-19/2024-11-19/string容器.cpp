@@ -318,27 +318,27 @@ using namespace std;
 //函数原型 :
 //string substr(int pos = 8，intn = npos)const; //返回由pOS开始的n个字符组成的字符串
 
-void test01()
-{
-	string str = "abcdef";
-	string subStr = str.substr(1, 3);
-	cout << "subStr=" << subStr << endl;
-}
-//实用操作
-void test02()
-{
-	string email = "lisi@sina.com";
-	//从邮件中截取用户名
-	int pos = email.find("@");
-	cout << pos << endl;
-
-	string userName = email.substr(0, pos);
-	cout << userName << endl;
-}
-int main()
-{
-	//test01();
-	test02();
-	system("pause");
-	return 0;
-}
+//void test01()
+//{
+//	string str = "abcdef";
+//	string subStr = str.substr(1, 3);
+//	cout << "subStr=" << subStr << endl;
+//}
+////实用操作
+//void test02()
+//{
+//	string email = "lisi@sina.com";
+//	//从邮件中截取用户名
+//	int pos = email.find("@");
+//	cout << pos << endl;
+//
+//	string userName = email.substr(0, pos);
+//	cout << userName << endl;
+//}
+//int main()
+//{
+//	//test01();
+//	test02();
+//	system("pause");
+//	return 0;
+//}
