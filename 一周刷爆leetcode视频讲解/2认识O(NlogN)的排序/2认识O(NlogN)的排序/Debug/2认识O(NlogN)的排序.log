@@ -1,0 +1,3 @@
+﻿  快排.cpp
+D:\GitHub_C++\一周刷爆leetcode视频讲解\2认识O(NlogN)的排序\2认识O(NlogN)的排序\快排.cpp(14,19): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  2认识O(NlogN)的排序.vcxproj -> D:\GitHub_C++\一周刷爆leetcode视频讲解\2认识O(NlogN)的排序\Debug\2认识O(NlogN)的排序.exe
