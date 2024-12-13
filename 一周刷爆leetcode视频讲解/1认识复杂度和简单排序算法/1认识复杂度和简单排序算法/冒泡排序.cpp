@@ -7,6 +7,8 @@
 //        if (arr.empty() || arr.size() < 2) {
 //            return;
 //        }
+//        //e 表示当前未排序部分的最后一个位置，逐渐递减。
+//		// e = arr.size() - 1,五个数只需要4次就可以将最大的数挪到数组尾部
 //        for (size_t e = arr.size() - 1; e > 0; e--) {
 //            for (size_t i = 0; i < e; i++) {
 //                if (arr[i] > arr[i + 1]) {

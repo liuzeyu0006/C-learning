@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="test.cpp" />
     <ClCompile Include="二分查找.cpp" />
     <ClCompile Include="冒泡排序.cpp" />
     <ClCompile Include="对数器.cpp" />
